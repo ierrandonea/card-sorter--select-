@@ -1,0 +1,164 @@
+* {
+    font-family: 'Red Rose', cursive;
+}
+
+/* vvv input, buttons and misc... vvv */
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
+
+.misc {
+    font-size: 1.5rem;
+}
+
+.input-group-text {
+    height: 2.5rem
+}
+
+#inlineFormInputGroup {
+    height: 2.5rem;
+    width: 10%;
+}
+
+.btn {
+    height: 2.5rem;
+}
+
+/* vvv cards and suits vvv */
+
+.card {
+    width: 7rem;
+    height: 10rem;
+    display: flex;
+    flex: column wrap;
+    align-items: center;
+    margin: 5px;
+}
+
+.minimizer {
+    transform: scale(0.4);
+    margin: 0;
+}
+
+/* heart */
+
+.the-number-heart {
+    font-size: 4rem;
+    color: red;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.the-number-heart::before {
+    content: "\2665";
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+.the-number-heart::after {
+    content: "\2665";
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    transform: rotate(180deg);
+}
+
+/* spades */
+
+.the-number-spades {
+    font-size: 4rem;
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.the-number-spades::before {
+    content: "\2660";
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+.the-number-spades::after {
+    content: "\2660";
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    transform: rotate(180deg);
+}
+
+/* diamonds */
+
+.the-number-diamonds {
+    font-size: 4rem;
+    color: red;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.the-number-diamonds::before {
+    content: "\2666";
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+.the-number-diamonds::after {
+    content: "\2666";
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    transform: rotate(180deg);
+}
+
+/* clubs */
+
+.the-number-clubs {
+    font-size: 4rem;
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.the-number-clubs::before {
+    content: "\2663";
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+.the-number-clubs::after {
+    content: "\2663";
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    transform: rotate(180deg);
+}
+
+.history-wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.history-container {
+    width: 100%;
+    height: auto;
+}
